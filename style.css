@@ -30,6 +30,10 @@ body {
    gap: 32px; 
 }
 
+.cabecalho-menu-mobile {
+    display: none;
+}
+
 .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
@@ -128,3 +132,25 @@ body {
     margin: 0 auto;
 }
 
+.image-menu {
+    width: 35px;
+    display: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 848px) {
+    .conteudo-principal {
+        display: block;
+        text-align: center;
+    }
+    .conteudo-principal-botao {
+        margin: 0 auto;
+    }
+    .conteudo-principal-imagem {
+        margin-left: 115px;
+    }
+    .conteudo-secundario {
+        padding: 0 10px;
+        text-align: center;
+    }
+  }
