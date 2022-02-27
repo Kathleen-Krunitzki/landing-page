@@ -3,6 +3,7 @@ const menuItems = document.querySelectorAll(".cabecalho-menu-item");
 const hamburger = document.querySelector(".image-menu");
 
 function toggleMenu() {
+  console.log("menu clicado")
   if (menu.classList.contains("menu-aberto")) {
     menu.classList.remove("menu-aberto");
   } else {
